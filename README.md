@@ -1,23 +1,108 @@
-# <h1 align="center">Weather App</h1>
+📌 SRM Weather App 🌦️
+A powerful weather application providing real-time weather updates with an elegant UI.
 
-<br>
+🌟 Features
+✅ Real-Time Weather Data – Fetches live weather updates.
+✅ Search by City – Get weather information for any location worldwide.
+✅ Dynamic UI – Beautiful and responsive design with CSS & animations.
+✅ Temperature & Forecast – Displays current temperature, humidity, and weather conditions.
+✅ Fast & Lightweight – Optimized for performance and quick load times.
 
-Building a Weather app with JavaScript is an excellent project for beginners. It helps to understand the core basics of the DOM and teaches how to use fetch API, to call and get data from a third-party service.<br>
+⚙️ Tech Stack
+Frontend: HTML, SCSS, JavaScript
+Backend: OpenWeatherMap API
+Tools: Gulp, BrowserSync, Git
+📥 Installation & Setup
+Follow these steps to run the project locally:
 
-This is a simple javascript project made with the help of HTML, CSS, and OpenWeather API. We used weather API to fetch data and display it according to the city entered in the search bar.
+1️⃣ Clone the Repository
+bash
+Copy
+Edit
+git clone https://github.com/PK1812KHARE/SRM-weather-app.git
+cd SRM-weather-app
+2️⃣ Install Dependencies
+bash
+Copy
+Edit
+npm install
+3️⃣ Add Your API Key
+Get a free API key from OpenWeatherMap.
+Create a .env file in the root directory:
+env
+Copy
+Edit
+REACT_APP_API_KEY=your_api_key_here
+(Replace your_api_key_here with your actual API key.)
 
+4️⃣ Run the Project
+bash
+Copy
+Edit
+gulp
+(This will compile SCSS and start the live server.)
 
+🌍 Deployment
+Deploy to GitHub Pages
+bash
+Copy
+Edit
+npm install gh-pages --save-dev
+Add this to package.json:
 
-# Demo of App
+json
+Copy
+Edit
+"scripts": {
+  "predeploy": "gulp css",
+  "deploy": "gh-pages -d ./"
+}
+Deploy with:
 
-![Screenshot (20)](https://user-images.githubusercontent.com/90332218/194750372-b524eec3-5ef9-4f0c-b82b-770ec8850fc1.png)
+bash
+Copy
+Edit
+npm run deploy
+Deploy to Netlify/Vercel
+Create an account on Netlify or Vercel.
+Connect your GitHub repo and deploy with one click.
+🛠 Project Structure
+lua
+Copy
+Edit
+📂 SRM-weather-app
+│── 📂 assets
+│── 📂 sass
+│── 📂 config
+│── 📜 index.html
+│── 📜 gulpfile.js
+│── 📜 README.md
+│── 📜 package.json
+📝 Contributing
+💡 Want to improve this project? Follow these steps:
 
+Fork this repository.
+Create a new branch (git checkout -b feature-branch).
+Commit your changes (git commit -m "Added a new feature").
+Push to your fork (git push origin feature-branch).
+Submit a Pull Request! 🎉
+👨‍💻 Author
+👤 Pathik Khare
+📌 Computer Science & Engineering (Big Data Analytics)
+📍 SRM Institute of Science and Technology, Chennai
 
-# check out live 
-Web Url: https://avinash201199.github.io/weather-app/
+🔗 Connect with me:
 
-You can contribute to this project by adding some new features or anything in your mind to contribute <br>
-[Check for getting started](https://github.com/avinash201199/weather-app/blob/main/CONTRIBUTING.md)
+GitHub: @PK1812KHARE
+LinkedIn: [Your LinkedIn Link Here]
+Portfolio: [Your Portfolio Link Here]
+⚖️ License
+📜 This project is licensed under the MIT License – see the LICENSE file for details.
 
-<br> 
-For any query dm on  [Linkedin](https://www.linkedin.com/in/avinash-singh-071b79175)
+🌟 Show Your Support!
+If you like this project, please give it a ⭐ on GitHub! 😊
+Contributions and feedback are always welcome.
+
+🚀 Enjoy using the SRM Weather App! 🌦️
+Let me know if you need further improvements! 😊
+
