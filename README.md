@@ -13,7 +13,7 @@
 ---
 
 ## ⚙️ Tech Stack  
-- **Frontend**: HTML, SCSS, JavaScript  
+- **Frontend**: HTML, SCSS, JavaScript
 - **Backend**: OpenWeatherMap API  
 - **Tools**: Gulp, BrowserSync, Git  
 
